@@ -129,7 +129,8 @@
     and (max-device-width : 568px)
     and (orientation : landscape) {
       body {
-        zoom: 90%
+        zoom: 90%;
+        overflow: hidden;
       }
     .description, .links{
 
@@ -142,8 +143,9 @@
       .links{padding-top: 30px}
       .container{
         width: 100%;
-        margin: 0 50px;
+        padding: 0 50px;
         background: green;
+        position: relative;
       }
     /* STYLES GO HERE */}
 
